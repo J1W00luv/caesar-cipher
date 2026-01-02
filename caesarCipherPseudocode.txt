@@ -1,0 +1,32 @@
+# 1 create an array of characters
+
+# 2 copy the array and move it by no. of chars
+  # 2.1 create a copy of the array
+  # 2.2 generate a random number
+  # 2.3 split the array into two parts (first part has a random length)
+  # 2.4 swap two parts
+
+# 3 get user input and encrypt it
+  # 3.1 get user input
+  # 3.2 create an empty array
+  # 3.3 loop for each character in user input
+    # 3.4 loop for every character in array
+      # 3.5 if character is in the array then find position in the array
+        # 3.6 find the character with the same position in shuffled array
+        # 3.7 add that character to an empty array
+      # 3.5 if false add the character as it is to the empty array
+
+# 4 display the result
+
+# 5 get user input and decrypt it
+  # 5.1 get user input
+  # 5.2 create an empty array
+  # 5.3 loop for each character in user input
+    # 5.4 loop for every character in array
+      # 5.5 if character is in shuffled array then find position in shuffled array
+        # 5.6 find the character with the same position in the array
+        # 5.7 add the character to the empty string
+      # 5.5 if false add the character as it is to the empty array
+
+# 6 display the result
+
