@@ -16,17 +16,20 @@
         # 3.7 add that character to an empty array
       # 3.5 if false add the character as it is to the empty array
 
-# 4 display the result
+# 4 display the result & key used for encryption
 
 # 5 get user input and decrypt it
   # 5.1 get user input
-  # 5.2 create an empty array
-  # 5.3 loop for each character in user input
-    # 5.4 loop for every character in array
-      # 5.5 if character is in shuffled array then find position in shuffled array
-        # 5.6 find the character with the same position in the array
-        # 5.7 add the character to the empty string
-      # 5.5 if false add the character as it is to the empty array
+  # 5.2 get the encryption key
+  # 5.3 create a copy of the characters array
+  # 5.4 split the array into two parts (first part has length of user's key)
+  # 5.5 swap two parts
+  # 5.6 create an empty array
+  # 5.7 loop for each character in user input
+    # 5.8 loop for every character in array
+      # 5.9 if character is in shuffled array then find position in shuffled array
+        # 5.10 find the character with the same position in the array
+        # 5.11 add the character to the empty string
+      # 5.9 if false add the character as it is to the empty array
 
 # 6 display the result
-
