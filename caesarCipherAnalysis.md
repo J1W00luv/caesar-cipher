@@ -1,7 +1,7 @@
-# Title: Caesar Encryption Program
+# Caesar Encryption Program
 
 ## **Aim:** 
-	To create an encryption program that will use the caesar cipher to encrypt a user message, shift key value is random every time (and only letters should be encrypted). To understand how a message can be encrypted and decrypted.
+	To create an encryption program that will use the caesar cipher to encrypt a user message, shift key value is random every time (and only letters should be encrypted), and decrypt a user message with the key specified by the user. To understand how a message can be encrypted and decrypted.
 
 ## **Method:**
 	1. Research preparation: Find out about different ciphers used.
@@ -13,19 +13,26 @@
 | Problem | Description | Solution |
 | ------- | ----------- | -------- |
 | Pseudocode inefficiency | The check written in pseudocode was not an efficient way to write the code. (for every character in an array, if a character from user input is in the array, then loop to find its pos. in the array). | Instead of looping for every character in an array of chars straight away I used the “not in” check first to make sure the character is a cyrillic letter before finding its position. |
-
+| Decryption Problems | The message cannot be decrypted correctly if it was encrypted in another program running. | I tried using the old shuffled array to try and decrypt the message, so i just changed it to the new shifted array name. |
 
 
 ## **Testing results:**
-	
-| Input for Encryption | Encrypted Output | Input for Decryption | Decrypted Output |
-| -------------------- | ---------------- | -------------------- | ---------------- |
-| “Hello World!” | “TqxxA iADxp!” | “TqxxA iADxp!” | “Hello World!” |
-| “Hey123” | “MjD123” | “MjD123” | “Hey123” |
+	**Encryption**
+| Input for Encryption | Encrypted Output | Key Used |
+| -------------------- | ---------------- | -------- |
+| “Hello World!” | “Fcjjm Umpjb!” | 50 |
+| “Hey123” | “vSm123” | 40 |
+
+	**Decryption**
+| Input for Decryption | Decrypted Output | Key Used |
+| -------------------- | ---------------- | -------- |
+| “Fcjjm Umpjb!” | “Hello World!” | 50 |
+| “MN” | “Hi” | 31 |
 
 
 ## **Conclusion:**
-	I have successfully written an encryption program that uses caesar cipher. The testing showed that the program worked correctly. I have learned about encryption methods and practiced writing code.
+	I have successfully written an encryption program that uses caesar cipher. It encrypts the message usign a randomly generated encryption key, and asks for one before decrypting the user's message. The testing showed that the program worked correctly. I have learned about encryption methods and practiced writing code.
 
 ## **Next steps:**
-	My program could be improved by printing to the user the key that was used to encrypt data, and asking for the key when decrypting the message.
+	My program could be improved by asking the user if they want the key to be randomly generated for encrytion or they want to enter one. Also use subroutines.
+
