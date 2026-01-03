@@ -26,3 +26,6 @@
 
 ## **Conclusion:**
 	I have successfully written an encryption program that uses caesar cipher. The testing showed that the program worked correctly. I have learned about encryption methods and practiced writing code.
+
+## **Next steps:**
+	My program could be improved by printing to the user the key that was used to encrypt data, and asking for the key when decrypting the message.
