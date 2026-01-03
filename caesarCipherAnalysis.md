@@ -13,7 +13,7 @@
 | Problem | Description | Solution |
 | ------- | ----------- | -------- |
 | Pseudocode inefficiency | The check written in pseudocode was not an efficient way to write the code. (for every character in an array, if a character from user input is in the array, then loop to find its pos. in the array). | Instead of looping for every character in an array of chars straight away I used the “not in” check first to make sure the character is a cyrillic letter before finding its position. |
-| Decryption Problems | The message cannot be decrypted correctly if it was encrypted in another program running. | I tried using the old shuffled array to try and decrypt the message, so i just changed it to the new shifted array name. |
+| Decryption Problems | The message couldn't be decrypted correctly unless it was done in the same program running. | I forgot to change the name of the shuffled array to the one using user's key and message was decrypted using the wrong kay, so i changed the array used in decryption. |
 
 
 ## **Testing results:**
@@ -35,4 +35,5 @@
 
 ## **Next steps:**
 	My program could be improved by asking the user if they want the key to be randomly generated for encrytion or they want to enter one. Also use subroutines.
+
 
