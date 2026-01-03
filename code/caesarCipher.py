@@ -8,10 +8,10 @@ chars = list(chars)
 
 # 2 copy the array and move it by no. of chars
 shuffledArray = chars.copy()
-num = random.randint(0, 52)
+key = random.randint(0, 52)
 
-firstHalf = shuffledArray[:num]
-secondHalf = shuffledArray[num:]
+firstHalf = shuffledArray[:key]
+secondHalf = shuffledArray[key:]
 
 shuffledArray = secondHalf + firstHalf
 
@@ -30,16 +30,26 @@ for x in range(len(userInput)):
 # 4 display the result
 encryptedMessage = ''.join(encryptedMessage)
 print(encryptedMessage)
+print(f"Key used: {key}")
 
 # 5 get user input and decrypt it
 userInput = input("Enter your encrypted message: ")
+userKey = int(input("Enter your encryption key: "))
+
+shuffledArray2 = chars.copy()
+
+firstHalf2 = shuffledArray2[:userKey]
+secondHalf2 = shuffledArray2[userKey:]
+
+shuffledArray2 = secondHalf2 + firstHalf2
+
 decryptedMessage = ["" for x in range(len(userInput))]
 
 for x in range(len(userInput)):
     for y in range(len(chars)):
-        if userInput[x] == shuffledArray[y]:
+        if userInput[x] == shuffledArray2[y]:
             decryptedMessage[x] = chars[y]
-    if userInput[x] not in shuffledArray:
+    if userInput[x] not in shuffledArray2:
         decryptedMessage[x] = userInput[x]
 
 # 6 display the result
