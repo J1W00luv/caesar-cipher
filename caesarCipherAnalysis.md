@@ -1,7 +1,7 @@
 # Caesar Encryption Program
 
 ## **Aim:** 
-	To create an encryption program that will use the caesar cipher to encrypt a user message, shift key value is random every time (and only letters should be encrypted), and decrypt a user message with the key specified by the user. To understand how a message can be encrypted and decrypted.
+To create an encryption program that will use the caesar cipher to encrypt a user message, shift key value is random every time (and only letters should be encrypted), and decrypt a user message with the key specified by the user. To understand how a message can be encrypted and decrypted.
 
 ## **Method:**
 	1. Research preparation: Find out about different ciphers used.
@@ -31,10 +31,11 @@
 
 
 ## **Conclusion:**
-	I have successfully written an encryption program that uses caesar cipher. It encrypts the message usign a randomly generated encryption key, and asks for one before decrypting the user's message. The testing showed that the program worked correctly. I have learned about encryption methods and practiced writing code.
+I have successfully written an encryption program that uses caesar cipher. It encrypts the message usign a randomly generated encryption key, and asks for one before decrypting the user's message. The testing showed that the program worked correctly. I have learned about encryption methods and practiced writing code.
 
 ## **Next steps:**
-	My program could be improved by asking the user if they want the key to be randomly generated for encrytion or they want to enter one. Also use subroutines.
+My program could be improved by asking the user if they want the key to be randomly generated for encrytion or they want to enter one. Also use subroutines.
+
 
 
 
